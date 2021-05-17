@@ -1,0 +1,96 @@
+/* Importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* removing preset styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Styling body */
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 115px;
+
+}
+.flex{
+    display: flex;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.direction-column{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/* Styling navbar */
+nav{
+    height: 180px;
+    width: 70%;
+}
+nav>a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav>a:hover{
+    color: #A3CB38;
+    font-weight: bold;
+}
+/* Styling Header section */
+header{
+    min-height: 620px;
+    flex-wrap: wrap-reverse;
+}
+.header-text{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 536px;
+}
+header img{
+    size: 100%;
+}
+.bg-green{
+    position: absolute;
+    width: 446px;
+    height: 630px;
+    background: #A3CB38;
+    left: 948px;
+    right: 492px;
+    z-index: -1;
+    border-radius: 0px 0px 100px 0px;
+}
+h2{
+    font-size: 55px;
+}.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: #A3CB38;
+    margin-top: 32px;
+}
+.button p{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Styling main hustle */
+.my-main-hustle
+/* Styling my work */
+
+/* Proud section */
+
+/* My side hustle section */
+
+/* Styling footer section */
+
+/* Mobile friendly */
